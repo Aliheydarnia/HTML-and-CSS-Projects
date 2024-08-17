@@ -1,0 +1,9 @@
+h2 { text-shadow: 2px 2px chartreuse;
+}
+p {
+    background-color: silver;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    color:indianred
+}
