@@ -5,16 +5,56 @@ body {
     color: aquamarine;
 }
 
-h1 {
+h1,h4 {
     color: blue;
-    font-family: sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500px;
+    width: 100%;
 }
  
 form input[type="text"] {
-    width: 20%;
-    margin: 2px;
-    border: 3px solid;
-    border-radius: 4px;
+    width: 45%;
+    font-size: 20px;
+    color: aquamarine;
+    padding: 2% 3% 2% 5%;
+    margin: 5px 1em;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: block;
 
+
+}
+
+strong {
+    line-height: 50px;
+    font-weight: 450;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: aquamarine;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5)
+}
+.information {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8d8e8f;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 10% auto;
+    border-radius: 7px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif; 
+}
+
+form input[type="submit"] {
+    background-color: blueviolet;
+    cursor: pointer;
 }
 
